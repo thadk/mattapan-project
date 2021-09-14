@@ -1,4 +1,3 @@
-import * as React from 'react';
 import styled from '@emotion/styled';
 
 import { HeaderLink, HeaderTitle } from '../atoms/HeaderAtoms';
@@ -18,7 +17,7 @@ const Spacer = styled.div`
     flex: 1;
 `
 
-export const Header = () => {
+export default function Header ()  {
     return (
         <HeaderContainer>
             <HeaderTitle>Mattapan Boston</HeaderTitle>

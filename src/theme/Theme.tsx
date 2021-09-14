@@ -22,6 +22,12 @@ export const Theme: Theme = {
             medium: 500,
             regular: 400,
         },
+        fontSize: {
+            title: '40px',
+            subtitle: '24px',
+            regular: '16px',
+            small: '12px',
+        }
     }
 }
 
@@ -29,5 +35,4 @@ type ThemeType = typeof Theme;
 
 declare module '@emotion/react' {
     export interface Theme extends ThemeType {}
-
 }
