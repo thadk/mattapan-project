@@ -48,8 +48,8 @@ export default function Map () {
 
 	return (
 		<>
-		<img style={{height: "300px"}} alt="first timeline map image" src="/one.png"></img>
-		<img style={{height: "300px"}}  alt="first timeline map image" src="/two.png"></img>
+		<img style={{height: "300px"}} alt="first timeline map" src="/one.png"></img>
+		<img style={{height: "300px"}}  alt="first timeline map" src="/two.png"></img>
 		<div>timeline would progress, boundaries would change, different indicators would pop up and show future projects.
 		</div>
 		<p>&nbsp;</p><p>&nbsp;</p>
