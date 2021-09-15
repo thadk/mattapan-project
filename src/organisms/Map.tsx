@@ -47,8 +47,15 @@ export default function Map () {
 	});
 
 	return (
+		<>
+		<img style={{height: "300px"}} src="/one.png"></img>
+		<img style={{height: "300px"}} src="/two.png"></img>
+		<div>timeline would progress, boundaries would change, different indicators would pop up and show future projects.
+		</div>
+		<p>&nbsp;</p><p>&nbsp;</p>
 	<MapContainer>
 		<div ref={ mapContainer } className="map" />
 	</MapContainer>
+	</>
 	);
 }
