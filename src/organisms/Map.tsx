@@ -48,11 +48,16 @@ export default function Map () {
 
 	return (
 		<>
-		<img style={{height: "300px"}} src="/one.png"></img>
-		<img style={{height: "300px"}} src="/two.png"></img>
+		<img style={{height: "300px"}} alt="first timeline map image" src="/one.png"></img>
+		<img style={{height: "300px"}}  alt="first timeline map image" src="/two.png"></img>
 		<div>timeline would progress, boundaries would change, different indicators would pop up and show future projects.
 		</div>
 		<p>&nbsp;</p><p>&nbsp;</p>
+		breakout the initial concept map into separate maps (like a new york times article)
+
+		<br/> Think of it as a tool to show a focus point or stories or future projects, or cultural things in mattapan
+		<p>&nbsp;</p><p>&nbsp;</p>
+
 	<MapContainer>
 		<div ref={ mapContainer } className="map" />
 	</MapContainer>
